@@ -1,0 +1,62 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	background: #DCDCDC;
+}
+.imagem1 {
+	max-width: 100%;
+}
+
+.habilidades {
+	display: flex;
+	justify-content: space-around;
+}
+
+.lista-habilidades {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.titulo-habilidades {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.rodape {
+	background: #000000;
+	text-align: center;
+	height: 100px;
+	padding: 40px 0;
+}
+
+.imagem2 {
+	width: 70px;
+	height: 70px;
+
+}
+
+.copyright, .contato {
+	color: white;
+	text-align: center;
+}
+@media(max-width: 768px) {
+	.imagem1 {
+		display: flex;
+		
+	}
+	.habilidades {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.video {
+		display: flex;
+		width: 100%;
+	}
+}
