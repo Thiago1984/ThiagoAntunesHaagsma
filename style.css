@@ -65,6 +65,7 @@ body {
 }
 
 .emoji1{
-	background-color: blue;
+	background-color: rgb(65, 65, 230);
 	text-align: center;
+	color: white;
 }
